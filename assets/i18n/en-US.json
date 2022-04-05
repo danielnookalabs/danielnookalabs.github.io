@@ -1,0 +1,848 @@
+{
+  "GENERAL": {
+    "AFTER90": "The Real Scout",
+    "CREATE": "Create",
+    "EDIT": "Edit",
+    "DELETE": "Delete",
+    "SAVE": "Save",
+    "BACK": "Back",
+    "CANCEL": "Cancel",
+    "SEARCH": "Search",
+    "NOT_AVAILABLE": "Not available",
+    "ADD_TO_FAVORITES": "Add to Favorites",
+    "NO_RESULTS_TEXT": "No results found",
+    "SEE_MORE_TOOLTIP": "See more information",
+    "UNDEFINED": "No info",
+    "TITLES": {
+      "SUCCESS": "Success",
+      "INFO": "Info",
+      "WARNING": "Warning",
+      "ERROR": "Error"
+    },
+    "ERRORS": {
+      "DEFAULT": {
+        "TITLE": "Oops! An unexpected error occurred...",
+        "MESSAGE": "Keep calm, take a break and try again later"
+      },
+      "SESSION_EXPIRED": {
+        "TITLE": "Your session has expired",
+        "MESSAGE": "Please, log in back again."
+      }
+    },
+    "ROLES": {
+      "ADMIN": "Administrator",
+      "SCOUT": "Scout"
+    },
+    "ENTITIES": {
+      "LEAGUE": "League",
+      "TEAM": "Team",
+      "PLAYER": "Player"
+    },
+    "GENDER": {
+      "MALE": "Male",
+      "FEMALE": "Female"
+    }
+  },
+  "GENERAL_SEARCH": {
+    "TITLE": "Results",
+    "PLAYERS_LINK": "See more players",
+    "NO_RESULTS": "No results found"
+  },
+  "NAV": {
+    "LEAGUES": "Leagues",
+    "PROFILE": "My Profile",
+    "SETTINGS": "Settings",
+    "FAVORITES": "My Favorites",
+    "LOG_OUT": "Log Out"
+  },
+  "LANGUAGES": {
+    "ES": "Español",
+    "EN": "English",
+    "GE": "German",
+    "IT": "Italian"
+  },
+  "GOOGLE": {
+    "LOGIN": "Log in with Google",
+    "REGISTER": "Continue with Google",
+    "ERROR": {
+      "LOGIN": {
+        "TITLE": "Oh no! Log in with google could not be completed",
+        "MESSAGE": "An error occurred while trying to connect to google, please try again or get in touch with support if the problem persists"
+      },
+      "REGISTER": {
+        "TITLE": "Oh no! The registration with google could not be completed",
+        "MESSAGE": "An error occurred while trying to connect to google, please try again or get in touch with support if the problem persists"
+      }
+    }
+  },
+  "LOGIN": {
+    "TITLE": "Log in",
+    "EMAIL": "Email",
+    "SUBMIT_BUTTON": "Log in",
+    "PASSWORD": "Password",
+    "REMEMBER_ME": "Remember me",
+    "FORGOT_PASSWORD": "Forgot password?",
+    "EXAMPLE": "example@address.com",
+    "EMAIL_REQUIRED": "Email is required.",
+    "EMAIL_WRONG_FORMAT": "Invalid email format.",
+    "PASSWORD_REQUIRED": "Password is required.",
+    "PASSWORD_FORMAT": "The password requires one lowercase and one upper case, a number, a symbol and at least eigth characters.",
+    "PASSWORD_RESET_SUCCESS": "Password changed successfully!",
+    "PASSWORD_RESET_MESSAGE": "You can now log in with your new password",
+    "REGISTER": "I'm not registered yet",
+    "PAYMENT_OK": "Payment Successful",
+    "PAYMENT_OK_TEXT": "Your payment has been processed! Welcome to The Real Scout",
+    "TOAST": {
+      "INFO": {
+        "TITLE": "Invalid Data",
+        "MESSAGE": "Please, fix the fields marked with errors before log in."
+      },
+      "ERROR": {
+        "TITLE": "Log in failed",
+        "MESSAGE": "Invalid email/password, please try again."
+      },
+      "ERROR_INACTIVE": {
+        "TITLE": "User disabled",
+        "MESSAGE": "Your user is inactive, please contact the adminsitration team for mor information."
+      },
+      "EMPTY": {
+        "TITLE": "Incorrect data",
+        "MESSAGE": "To continue, please insert Email and Password"
+      }
+    },
+    "PASSWORD_CHANGED_TITLE": "Password changed successfully!",
+    "PASSWORD_CHANGED_TEXT": "You can now log in with your new password."
+  },
+  "FORGOT": {
+    "TITLE": "Forgot Password",
+    "INFO_MESSAGE": "Enter your account’s email and we’ll send you a link to reset your password.",
+    "EMAIL": "Email",
+    "SEND_EMAIL": "Send email",
+    "LOGIN": "Back to Login",
+    "EXAMPLE": "example@address.com",
+    "EMAIL_REQUIRED": "Email is required.",
+    "EMAIL_WRONG_FORMAT": "Invalid email format.",
+    "CHECK_CREDENTIALS": "Please check your credentials and try again.",
+    "TOAST": {
+      "INFO": {
+        "TITLE": "Invalid Data",
+        "MESSAGE": "To continue, please enter an email."
+      },
+      "ERROR": {
+        "TITLE": "Send email failed",
+        "MESSAGE": "Invalid email, please try again."
+      },
+      "SUCCESS": {
+        "TITLE": "Email successfully sent",
+        "MESSAGE": "Check your inbox for further instructions."
+      }
+    }
+  },
+  "RESET": {
+    "TITLE": "Reset your password",
+    "NEW_PASSWORD": "New password",
+    "NEW_PASSWORD_REPEAT": "Repeat new password",
+    "SUBMIT_BUTTON": "Change password",
+    "NEW_PASSWORD_REQUIRED": "New password is required",
+    "NEW_PASSWORD_REPEAT_REQUIRED": "Repeat new password is required",
+    "PASSWORD_FORMAT": "The password requires one lowercase and one upper case, a number, a symbol and at least eigth characters.",
+    "TOAST": {
+      "PASSWORD_ERROR": {
+        "TITLE": "Passwords don't match",
+        "MESSAGE": "New password and repeat password are different."
+      },
+      "ERROR": {
+        "TITLE": "Invalid link",
+        "MESSAGE": "The used link was already processed, please restart the flow."
+      },
+      "REQUIRED_ERROR": {
+        "TITLE": "Incorrect data",
+        "MESSAGE": "To continue, please enter password and repeat password."
+      },
+      "SUCCESS": {
+        "TITLE": "Success",
+        "MESSAGE": "Your password has been changed."
+      }
+    }
+  },
+  "REGISTER": {
+    "TOAST": {
+      "EMAIL_ERROR": {
+        "TITLE": "Invalid email",
+        "MESSAGE": "The email you entered is already in use, select a different one."
+      },
+      "TOKEN_ERROR": {
+        "TITLE": "Invalid link",
+        "MESSAGE": "The link you used was already processed, please contact our administrators."
+      }
+    },
+    "PROFESSIONS": {
+      "CLUB": "Club",
+      "NATIONAL_TEAM": "National Team",
+      "PLAYER_AGENCY": "Player Agency",
+      "INDEPENDENT_SCOUT": "Independent Scout",
+      "INDEPENDENT_COACH": "Independent Coach",
+      "JOURNALIST": "Journalist",
+      "OTHER": "Other"
+    },
+    "FIRST_STEP": {
+      "TITLE": "Create your account",
+      "SELECT_PROFESSION": "Select an option",
+      "CONTINUE": "Continue",
+      "PROFESSION": "What do you do?",
+      "GO_BACK": "Go back",
+      "CONTINUE_LINKEDIN": "Continue with Linkedin",
+      "TOAST": {
+        "INFO": {
+          "TITLE": "Incorrect Data",
+          "MESSAGE": "To continue, please select what do you do."
+        },
+        "REGISTER_REQUIRED": {
+          "TITLE": "Account connected with google successfully",
+          "MESSAGE": "Hello! Welcome, please fill up the information below to complete the registration process."
+        }
+      }
+    },
+    "SECOND_STEP": {
+      "TITLE": "Complete your personal data",
+      "GO_BACK": "Go back",
+      "CONTINUE": "Continue",
+      "LBL_PHONE_NUM": "Cellphone Number",
+      "LBL_NAME": "Name",
+      "EMAIL_PLACEHOLDER": "email@email.com",
+      "LBL_SURNAME": "Surname",
+      "LBL_EMAIL": "Email",
+      "LBL_PASSWORD": "Password",
+      "LBL_REPEAT_PASSWORD": "Repeat Password",
+      "EMAIL_WRONG_FORMAT": "Invalid email format.",
+      "NAME_WRONG_FORMAT": "You must enter at least 2 characters without spaces.",
+      "SURNAME_WRONG_FORMAT": "You must enter at least 2 characters without spaces.",
+      "CELLPHONE_WRONG_FORMAT": "You must enter at least 9 numbers, can include country identifier",
+      "PASSWORD_REQUIRED": "Password is required.",
+      "PASSWORD_CONFIRM_REQUIRED": "Repeat password is required.",
+      "EMAIL_REQUIRED": "Email is required.",
+      "NAME_REQUIRED": "Name is required.",
+      "SURNAME_REQUIRED": "Surname is required.",
+      "CELLPHONE_REQUIRED": "Cellphone Number is required.",
+      "PASSWORD_WRONG_FORMAT": "Invalid password, please verify the instructions.",
+      "PASSWORD_INSTRUCTIONS": "The password requires one lowercase and one upper case, a number, a symbol and at least eigth characters.",
+      "AGREE": "I agree to the ",
+      "TERMS_COND": "Terms and Conditions",
+      "POLI_PRIV": "Privacy Policies",
+      "TOAST": {
+        "INFO": {
+          "TITLE": "Incorrect Data",
+          "MESSAGE": "To continue, please complete all fields."
+        },
+        "ERROR": {
+          "TITLE": "Passwords dont match",
+          "MESSAGE": "Password and password repetition must match."
+        }
+      }
+    },
+    "THIRD_STEP": {
+      "TITLE": "Your account has been successfully created.",
+      "SUBTITLE": "Enter your email to activate it."
+    },
+    "FOURTH_STEP": {
+      "TITLE": "Your account has been successfully activated.",
+      "SUBTITLE": "Make membership payment in order to begin.",
+      "NAME": "Name:",
+      "EMAIL": "Email:",
+      "LASTNAME": "Lastname:",
+      "PHONE": "Phone:",
+      "PAYMENT_TYPE": "Anual payment",
+      "AMOUNT": "Amount",
+      "PAY_TITLE": "Pay with PayPal",
+      "PAY_BUTTON": "Log In",
+      "MEMBERSHIP": "Player Agent Membership",
+      "TOAST": {
+        "ERROR": {
+          "TITLE": "Payment Error",
+          "MESSAGE": "We aren´t able to process your payment. Please try again"
+        }
+      }
+    }
+  },
+  "FOOTER": {
+    "POWERED_BY": "Powered by",
+    "ABOUT_US": "About Us",
+    "COPYRIGHT": "© 2021 The Real Scout. All rights reserved.",
+    "PRIVATE": "Home",
+    "HELP": "Help center",
+    "TERMS": "Terms",
+    "PRIVACY": "Privacy",
+    "STATUS": "Service status",
+    "CONTACT": "Contact"
+  },
+  "HEADER": {
+    "LOGOUT": {
+      "MODAL_HEADER": "Are you sure you want to logout?",
+      "MODAL_BODY": "You will be redirected to the login page",
+      "MODAL_ACCEPT": "Log out"
+    }
+  },
+  "PROFILE": {
+    "BUTTON": {
+      "EDIT": "Edit",
+      "SAVE": "Save"
+    },
+    "INPUT_GROUP": {
+      "BASIC_INFORMATION": "Basic Information",
+      "PROFESSIONAL_RECORDS": "Professional Records",
+      "ABOUT_ME": "About me"
+    },
+    "ORGANIZATION": "Organization",
+    "WEBSITE": "Website",
+    "WORKPLACE": "Workplace ",
+    "LINKEDIN": "LinkedIn",
+    "DESCRIPTION": "Description",
+    "LBL_NAME": "Name",
+    "LBL_SURNAME": "Surname",
+    "LBL_EMAIL": "Email",
+    "LBL_PHONE_NUM": "Cellphone number",
+    "LBL_COUNTRY": "Country",
+    "LBL_CITY": "City",
+    "LBL_LANGUAGES": "Languages",
+    "TOAST": {
+      "ERROR": {
+        "TITLE": "Oops! An unexpected error occurred...",
+        "MESSAGE": "Keep calm, take a break and try again later"
+      }
+    },
+    "EMAIL_REQUIRED": "Email is required.",
+    "NAME_REQUIRED": "First name is required.",
+    "SURNAME_REQUIRED": "Last name is required.",
+    "EMAIL_WRONG_FORMAT": "Invalid email format.",
+    "NAME_WRONG_FORMAT": "You must enter at least 2 characters without spaces.",
+    "SURNAME_WRONG_FORMAT": "You must enter at least 2 characters without spaces.",
+    "CELLPHONE_REQUIRED": "Cellphone Number is required.",
+    "CELLPHONE_WRONG_FORMAT": "You must enter at least 9 numbers, can include country identifier",
+    "NO_LANGUAGE_SELECTED": "There is no language selected",
+    "LANGUAGES_PLACEHOLDER": "Select Language",
+    "ERROR_SAVE_TITLE": "Oops! An error occurred..",
+    "ERROR_SAVE_MESSAGE": "Please, fix the fields marked with errors to save."
+  },
+  "HOME": {
+    "SECTION_TITLE": "Welcome",
+    "SECTION_SUBTITLE": "Start with your search right now!",
+    "SEARCHBAR_PLACEHOLDER": "Search Leagues, Teams and Players...",
+    "FAVORITES_TITLES": "My Favorites",
+    "SEE_FAVORITES": "See all the favorites",
+    "SEE_LEAGUE": "See League",
+    "VIDEOS_TITLE": "Latest Events",
+    "FEATURED_LEAGUES": "Featured Leagues",
+    "MY_HOME": "My home"
+  },
+  "PLAYERS_ADVANCED_SEARCH": {
+    "SECTION_TITLE": "Advanced Player Search",
+    "NO_RESULTS": "No results found",
+    "NAME": "Name",
+    "POSITION": "Position",
+    "NATIONALITY": "Nationality",
+    "RATING": "Rating",
+    "FAVORITE": "Favorite",
+    "CURRENT_TEAM": "Current Team",
+    "AGE": "Age",
+    "SEE_DETAIL_BTN": "See Player",
+    "PLAYER_IMG_ALT": "Player image",
+    "FLAG_IMG_ALT": "Birthplace flag",
+    "SORTING": {
+      "NEWEST": "Newest"
+    },
+    "SIDEBAR": {
+      "FILTERS_CLEAN": "Clear Filters",
+      "TITLE": "Search By",
+      "ERROR_MSG": "Write at least two characters",
+      "FAVORITES": "Favorites Players",
+      "POSITIONS_LBL": "Positions",
+      "LEAGUES_LBL": "Leagues",
+      "LEAGUES_PLACEHOLDER": "Select League...",
+      "TEAMS_LBL": "Teams",
+      "TEAMS_PLACEHOLDER": "Select Teams...",
+      "FOOT_LBL": "Skillful Foot",
+      "PERSONAL_DATA": "Personal Data",
+      "AGE_LBL": "Age",
+      "HEIGHT_LBL": "Height",
+      "WEIGHT_LBL": "Weight",
+      "NATIONALITY": "Nationality",
+      "BIRTHPLACE_LBL": "Place of birth",
+      "BIRTHPLACE_PLACEHOLDER": "Country...",
+      "PASSPORT_LBL": "Passport",
+      "PASSPORT_PLACEHOLDER": "Nationality...",
+      "AGE_SLIDER": "Years",
+      "RATING": "Rating"
+    },
+    "ERRORS": {
+      "NO_PARAMS_TITLE": "Search filters required",
+      "NO_PARAMS_MESSAGE": "Please select at least a league to view results"
+    }
+  },
+  "PLAYER": {
+    "NAME": "Name",
+    "POSITION": "Position",
+    "AGE": "Age",
+    "AGE_LBL": "Years",
+    "TEAM": "Team",
+    "HEIGHT_LBL": "Height",
+    "WEIGHT_LBL": "Weight",
+    "POSITION_LBL": "Extra positions",
+    "FOOT_LBL": "Skillful Foot",
+    "STATISTICS_LBL": "Statistics",
+    "ANALYST_LBL": "Analyst",
+    "DATA_DISCLAIMER": "Data from the current season",
+    "MATCHES_LBL": "Matches",
+    "ASSISTS_LBL": "Assists",
+    "GOALS_LBL": "Goals",
+    "NATIONALITY_LBL": "Nationality",
+    "INFORMATION_LBL": "Information:",
+    "BIRTHPLACE_LBL": "Place of birth:",
+    "BIRTHDAY_LBL": "Day of birth:",
+    "CURRENT_TEAM_LBL": "Current Team:",
+    "CONTACT_BTN": "Contact",
+    "AGE_NOT_AVAILABLE": "-",
+    "SEARCH_PLACEHOLDER": "Search by name...",
+    "FOOT": {
+      "RIGHT": "Right",
+      "LEFT": "Left",
+      "UNDEFINED": "No info"
+    },
+    "ROLES": {
+      "MID": "Midfielder",
+      "FW": "Forward",
+      "FWD": "Forward",
+      "GK": "Goalkeeper",
+      "GKP": "Goalkeeper",
+      "DF": "Defender",
+      "DEF": "Defender"
+    },
+    "CAREER_TAB": "Career",
+    "TRANSFERS_TAB": "Transfers",
+    "CAREER_TABLE": {
+      "LEAGUE_LBL": "League",
+      "TEAM_LBL": "Team",
+      "MINUTES_LBL": "Minutes Played",
+      "APPEARANCES_LBL": "Appearances",
+      "CARDS_LBL": "Cards",
+      "EMPTY": "No information available",
+      "AREA_LBL": "Area"
+    },
+    "TRANSFERS_TABLE": {
+      "FROM_LBL": "From Team",
+      "TO_LBL": "To Team",
+      "DATE_FROM_LBL": "From Date",
+      "DATE_LBL": "To Date",
+      "TYPE_LBL": "Type",
+      "EMPTY": "No information available",
+      "FREE_AGENT_LBL": "Free Agent",
+      "CURRENT_DATE_LBL": "Current",
+      "TRANSFER_TYPES": {
+        "TRANSFER": "Transfer",
+        "BACK_FROM_LOAN": "Back from loan",
+        "LOAN": "Loan",
+        "FREE_TRANSFER": "Free transfer",
+        "NOT_AVAILABLE": "Info not available"
+      }
+    },
+    "CONTACT": {
+      "MODAL_HEADER": "Are you sure you want to get more information?",
+      "MODAL_BODY": "An email will be sent to the therealscout team",
+      "MODAL_ACCEPT": "Request information",
+      "TOAST": {
+        "SUCCESS": {
+          "TITLE": "Thank you for getting in touch with us!",
+          "SUBTITLE": "A representative will contact you as soon as possible."
+        },
+        "ERROR": {
+          "TITLE": "Oops! An error occurred..",
+          "SUBTITLE": "Please, try again later"
+        }
+      }
+    }
+  },
+  "TEAM_DETAIL": {
+    "INFORMATION_LBL": "Information:",
+    "TABLE_POSITION": "Table Position:",
+    "CURRENT_POINTS": "Current Points:",
+    "SQUAD_SIZE": "Squad Size:",
+    "VIDEOS_TITLE": "Latest events",
+    "MATCHES_LBL": "Matches",
+    "PLAYERS_LBL": "Players",
+    "PLAYERS": {
+      "TABLE": {
+        "NAME": "Name",
+        "POSITION": "Position",
+        "COUNRTY": "Nationality",
+        "AGE": "Age"
+      }
+    }
+  },
+  "PLAYER_STATS_DETAIL": {
+    "RATING": "Rating",
+    "TOTAL_MATCH": "Total matches played",
+    "TOTAL_MINUTES": "Minutes per match (Average)",
+    "TOTAL_RATING": "Total Rating:",
+    "NICKNAME": "Nickname:",
+    "MATCHES_LBL": "Matches",
+    "MINUTES_MATCHES_LBL": "Minutes",
+    "STATS_TAB_TITLE": "Stats",
+    "ANALYST_TAB_TITLE": "Analyst",
+    "ANALYST_TAB_EMPTY": "No info available",
+    "ANALYST": {
+      "PHYSICAL": "Physical",
+      "TACTICS": "Technical / Tactical",
+      "MENTAL": "Aptitudes",
+      "TABLE_NAME_LBL": "Name",
+      "TABLE_VALUE_LBL": "Value",
+      "ANALYST_STATS": {
+        "SPEED": "Speed",
+        "REACTION": "Reaction",
+        "FORM": "Form",
+        "STRENGTH": "Strength",
+        "INJURIES": "Injuries",
+        "REFLEXES": "Reflexes",
+        "AGILITY": "Agility",
+        "AIRDOMAIN": "Air Domain",
+        "INTENSITY": "Intensity",
+        "TECHNIQUE": "Technique",
+        "POLYFUNCTIONALITY": "Polyfunctionality",
+        "ONEVSONE": "1 vs 1",
+        "GOALKICK": "Goal kick",
+        "FEETGAME": "Feet Game",
+        "PASSRECEPTIONTECHNIQUE": "Pass Reception",
+        "PENALTYSAVE": "Penalty Save",
+        "MARKONEVSONE": "Mark 1 vs 1",
+        "POSITIONING": "Positioning",
+        "AIRGAME": "Air Game",
+        "PRESSINGINTENSITY": "Pressing Intensity",
+        "DEFENDINGCOLLABORATION": "Defending Collaboration",
+        "DRIBBLINGONEVSONE": "Dribbling 1 vs 1",
+        "ATTACKINGCOLLABORATION": "Attacking Collaboration",
+        "CORNERSINDIRECTFREEKICKS": "Indirect Free Kicks",
+        "SHOTDEFINITION": "Definition",
+        "DIRECTFREEKICKS": "Free Kicks",
+        "PENALTIES": "Penalties",
+        "MOBILITY": "Mobility",
+        "GAMEVISION": "Game Vision",
+        "FEROCITY": "Ferocity",
+        "REGULARITY": "Regularity",
+        "PROFESSIONALISM": "Professionalism",
+        "LEADERSHIP": "Leadership",
+        "PRESSUREMANAGEMENT": "Pressure Management",
+        "FAIRPLAY": "Fair Play",
+        "CONCENTRATION": "Concentration",
+        "DECISIONMAKING": "Decision Making",
+        "IMPROVISATION": "Improvisation"
+      }
+    }
+  },
+  "PLAYER_WYSCOUT_STATS_DETAIL": {
+    "GENERALSTATICS": "General",
+    "OFFENSIVESTATICS": "Offensive",
+    "PRECISION": "Precision",
+    "EXTRAS": "Extras",
+    "EXTRA": "Extras",
+    "ATTACKSTATS": "Attack",
+    "OFFENSIVESTAT": "Offensive",
+    "DEFENSIVESTATS": "Defensive",
+    "OFFENSIVESTATS": "Offensive",
+    "GKSTATS": "Gaolkeeper General",
+    "SEASON": "Season",
+    "TOTAL": "Total",
+    "NO_DATA": "No data available"
+  },
+  "FIXTURE": {
+    "SECTION_TITLE": "Fixture",
+    "LEAGUES_PLACEHOLDER": "Select League...",
+    "ROUNDS_PLACEHOLDER": "Select other rounds...",
+    "LBL_STATUS_PLAYED": "Played",
+    "LBL_STATUS_PLAYING": "Playing",
+    "LBL_STATUS_FIXTURE": "Scheduled",
+    "LBL_STATUS_SUSPENDED": "Suspended",
+    "LBL_STATUS_AWARDED": "Awarded",
+    "LBL_STATUS_POSTPONED": "Postponed",
+    "LBL_STATUS_CANCELLED": "Cancelled",
+    "ACTIVE_ROUND": "Current Round",
+    "ROUND": "Round",
+    "NO_SELECTION_TITLE": "Select a league to see the matches.",
+    "NO_SELECTION_SUBTITLE": "Use the selector located in the top right",
+    "NO_DATA": "No information available of this round",
+    "NO_LEAGUE_DATA": "No information available for this league",
+    "WIDGET": {
+      "TITLE": "Upcoming matches",
+      "ROUND": "Round",
+      "LINK": "See fixture"
+    },
+    "NO_ACTIVE_SEASON": {
+      "TITLE": "Oops!",
+      "MESSAGE": "Esta liga no tiene una temporada activa"
+    }
+  },
+  "RANKING": {
+    "WIDGET": {
+      "NO_DATA": "No data available",
+      "TITLE": "Players Ranking",
+      "Forward": "Forward",
+      "Goalkeeper": "Goalkeeper",
+      "Defender": "Defender",
+      "Midfielder": "Midfielder",
+      "TABLE": {
+        "NAME_LBL": "Name",
+        "GOALS": "Goals",
+        "DUELS_WON": "Duels Won",
+        "SAVES": "Saves",
+        "SUCCESSFUL_PASSES": "Successful Passes"
+      }
+    }
+  },
+  "TEAMS_ADMIN": {
+    "SEARCHBAR_PLACEHOLDER": "Search Teams...",
+    "TABLE": {
+      "NAME": "Team",
+      "POSITION": "Position",
+      "CITY": "City",
+      "GENDER": "Gender"
+    }
+  },
+  "LEAGUE_DETAIL": {
+    "INFORMATION_LBL": "Information",
+    "PARTICIPANTS_LBL": "Participants",
+    "LEAGUE_TYPE_LBL": "League type",
+    "STANDINGS_LBL": "Standings",
+    "MATCHES_LBL": "Matches",
+    "TEAMS_LBL": "Teams",
+    "STANDINGS": {
+      "TABLE": {
+        "TEAM_LBL": "Team",
+        "PLAYED_TOOLTIP_LBL": "Matches Played",
+        "WON_TOOLTIP_LBL": "Matches Won",
+        "TIE_TOOLTIP_LBL": "Matches Tie",
+        "LOST_TOOLTIP_LBL": "Matches Lost",
+        "GF_TOOLTIP_LBL": "Goals Scored",
+        "GA_TOOLTIP_LBL": "Goals Against",
+        "GD_TOOLTIP_LBL": "Goal Difference",
+        "PLAYED_LBL": "Pl",
+        "WON_LBL": "W",
+        "TIE_LBL": "T",
+        "LOST_LBL": "L",
+        "GF_LBL": "GF",
+        "GA_LBL": "GA",
+        "GD_LBL": "GD",
+        "POINTS_LBL": "Pts"
+      }
+    }
+  },
+  "MATCH_DETAIL": {
+    "EVENTS_TITLE": "Match Events",
+    "FIRST_HALF": "First Half",
+    "SECOND_HALF": "Second Half",
+    "FIRST_HALF_EXTRA": "First Overtime",
+    "SECOND_HALF_EXTRA": "Second Overtime",
+    "PENALTIES": "Penalties"
+  },
+  "STATS_WYSCOUT": {
+    "PERCENTAGE": "Percentage",
+    "AVERAGE": "Average",
+    "MATCHES": "Matches",
+    "MATCHESINSTART": "Matches in start",
+    "MATCHESSUBSTITUTED": "Matches substitued",
+    "MATCHESCOMINGOFF": "Macthes coming off",
+    "HEADSHOTS": "Headshots",
+    "SHOTS": "Shots",
+    "MINUTESONFIELD": "Minutes on field",
+    "GOALS": "Goals",
+    "ASSISTS": "Assits",
+    "MINUTESTAGGED": "Minutes stagged",
+    "YELLOWCARDS": "Yellow cards",
+    "REDCARDS": "Red cards",
+    "DIRECTREDCARDS": "Direct red cards",
+    "PENALTIES": "Penalties",
+    "LINKUPPLAYS": "Link-up play",
+    "DUELS": "Duels",
+    "DUELSWON": "Duels won",
+    "DEFENSIVEDUELS": "Defensive duels",
+    "DEFENSIVEDUELSWON": "Defensive duels won",
+    "OFFENSIVEDUELS": "Ofensive duels",
+    "OFFENSIVEDUELSWON": "Ofensive duels won",
+    "AERIALDUELS": "Aerial duels",
+    "AERIALDUELSWON": "Aerial duels won",
+    "FOULS": "Fouls",
+    "PASSES": "Passes",
+    "SUCCESSFULPASSES": "Successful passes",
+    "SMARTPASSES": "Smart passes",
+    "PASSESTOFINALTHIRD": "Passes into final third",
+    "SUCCESSFULSMARTPASSES": "Successful smart passes",
+    "SUCCESSFULPASSESTOFINALTHIRD": "Successful passes into final third",
+    "CROSSES": "Crosses",
+    "SUCCESSFULCROSSES": "Successful crosses",
+    "FORWARDPASSES": "Forward passes",
+    "SUCCESSFULFORWARDPASSES": "Successful forward passes",
+    "BACKPASSES": "Back passes",
+    "SUCCESSFULBACKPASSES": "Successful back passes",
+    "THROUGHPASSES": "Through passes",
+    "SUCCESSFULTHROUGHPASSES": "Successful through passes",
+    "KEYPASSES": "Key passes",
+    "SUCCESSFULKEYPASSES": "Successful key passes",
+    "VERTICALPASSES": "Vertical passes",
+    "SUCCESSFULVERTICALPASSES": "Successful vertical passes",
+    "LONGPASSES": "Long passes",
+    "SUCCESSFULLONGPASSES": "Successful long passes",
+    "DRIBBLES": "Dribbles",
+    "SUCCESSFULDRIBBLES": "Successful dribbles",
+    "INTERCEPTIONS": "Interceptions",
+    "DEFENSIVEACTIONS": "Defensive actions",
+    "SUCCESSFULDEFENSIVEACTION": "Successful defensive actions",
+    "ATTACKINGACTIONS": "Attacking actions",
+    "SUCCESSFULATTACKINGACTIONS": "Successful attacking actions",
+    "FREEKICKS": "Free kicks",
+    "FREEKICKSONTARGET": "Free kicks on target",
+    "DIRECTFREEKICKS": "Direct free kicks",
+    "DIRECTFREEKICKSONTARGET": "Direct free kicks on target",
+    "CORNERS": "Corners",
+    "SUCCESSFULPENALTIES": "Successful penalties",
+    "SUCCESSFULLINKUPPLAYS": "Successful link-up plays",
+    "ACCELERATIONS": "Accelerations",
+    "PRESSINGDUELS": "Pressing duels",
+    "PRESSINGDUELSWON": "Pressing duels won",
+    "LOOSEBALLDUELS": "Loose ball duels",
+    "LOOSEBALLDUELSWON": "Loose ball duels won",
+    "MISSEDBALLS": "Missed balls",
+    "SHOTASSISTS": "Shot assists",
+    "SHOTONTARGETASSISTS": "Shot on taget assists",
+    "RECOVERIES": "Recoveries",
+    "OPPONENTHALFRECOVERIES": "Opponent half recoveries",
+    "DANGEROUSOPPONENTHALFRECOVERIES": "Dangerous opponent half recoveries",
+    "LOSSES": "Losses",
+    "OWNHALFLOSSES": "Own half losses",
+    "DANGEROUSOWNHALFLOSSES": "Dangeroues own half losses",
+    "XGSHOT": "Shots probability",
+    "XGASSIST": "Assists probability",
+    "RECEIVEDPASS": "Received passes",
+    "XGSAVE": "Saves probability",
+    "TOUCHINBOX": "Touch in the box",
+    "PROGRESSIVERUN": "Progressive run",
+    "OFFSIDES": "Offsides",
+    "CLEARANCES": "Clearances",
+    "SECONDASSISTS": "Second assists",
+    "THIRDASSISTS": "Third assists",
+    "SHOTSBLOCKED": "Shots blocked",
+    "FOULSSUFFERED": "Fouls suffered",
+    "PROGRESSIVEPASSES": "Progressive passes",
+    "COUNTERPRESSINGRECOVERIES": "Counter pressing recoveries",
+    "SLIDINGTACKLES": "Sliding tackles",
+    "GOALKICKS": "Goal kicks",
+    "DRIBBLESAGAINSTWON": "Dribbles against won",
+    "DRIBBLESAGAINST": "Dribbles against",
+    "GOALKICKSSHORT": "Goal kicks short",
+    "GOALKICKSLONG": "Goal kicks long",
+    "SHOTSONTARGET": "Shots on target",
+    "SUCCESSFULPROGRESSIVEPASSES": "Successful progressive passes",
+    "LATERALPASSES": "Lateral passes",
+    "SUCCESSFULLATERALPASSES": "Successful lateral passes",
+    "NEWSUCCESSFULDRIBBLES": "New successful dribbles",
+    "NEWDEFENSIVEDUELSWON": "New defensive dribbles won",
+    "NEWOFFENSIVEDUELSWON": "New ofensive dribbles won",
+    "NEWDUELSWON": "New duels won",
+    "GKSAVES": "GK Saves",
+    "GKAERIALDUELSWON": "GK Aerial duels won",
+    "GKAERIALDUELS": "GK Aerial duels",
+    "GKSUCCESSFULEXITS": "GK Successful exits",
+    "GKEXITS": "GK Exits",
+    "GKSHOTSAGAINST": "GK Shots against",
+    "GKCONCEDEDGOALS": "GK Conceded goals",
+    "GKCLEANSHEETS": "GK Clean sheets",
+    "FIELDAERIALDUELSWON": "Field aerial duels won",
+    "FIELDAERIALDUELS": "Field aerial duels",
+    "SUCCESSFULGOALKICKS": "Successful goal kicks",
+    "SUCCESSFULSLIDINGTACKLES": "Successful sliding tackles"
+  },
+  "ALL_POSITIONS": {
+    "TITLE": {
+      "ATK": "Strikers",
+      "MID": "Midfielders",
+      "DEF": "Defenders",
+      "GK": "Goalkeeper"
+    },
+    "AMF": "Attacking Midfielder",
+    "LAM": "Left Attacking Midfielder",
+    "RAM": "Right Attacking Midfielder",
+    "LCM": "Left Centre Midfielder",
+    "RCM": "Right Centre Midfielder",
+    "CMF": "Centre Midfielder",
+    "DMF": "Defensive Midfielder",
+    "LDM": "Left Defensive Midfielder",
+    "RDM": "Right Defensive Midfielder",
+    "CB": "Centre Back",
+    "LCB": "Left Centre Back",
+    "RCB": "Right Centre Back",
+    "RCB3": "Right Centre Back (3 at the back)",
+    "RB": "Right Back",
+    "RCB5": "Right Back (5 at the back)",
+    "LB": "Left Back",
+    "LWB": "Left Wingback",
+    "RWB": "Right Wingback",
+    "CF": "Striker",
+    "LW": "Left Winger",
+    "RW": "Right Wing",
+    "GK": "Goalkeeper",
+    "LWF": "Left Winger Forward",
+    "RWF": "Right Winger Forward",
+    "LAMF": "Left Attacking Midfielder",
+    "RAMF": "Right Attacking Midfielder",
+    "RMF": "Right Midfielder",
+    "LMF": "Left Midfielder",
+    "LCMF": "Left Centre Midfielder",
+    "LCMF3": "Left Centre Midfielder (3 at the middle)",
+    "RCMF": "Right Centre Midfielder",
+    "RCMF3": "Right Centre Midfielder (3 at the middle)",
+    "LDMF": "Left Defensive Midfielder",
+    "RDMF": "Right Defensive Midfielder",
+    "RB5": "Right Back (5 at the bottom)",
+    "LB5": "Left Back (5 at the bottom)",
+    "LCB3": "Left Centre Back (3 at the back)",
+    "LCB5": "Left Centre Back (5 at the back)"
+  },
+  "FAVORITE_PAGE": {
+    "TITLE": "Favorites",
+    "PLAYERS_TITLE": "Players",
+    "TEAMS_TITLE": "Teams",
+    "LEAGUES_TITLE": "Leagues",
+    "RESULTS": "Results",
+    "TABLE": {
+      "NAME": "Name",
+      "AGE": "Age",
+      "POSITION": "Position",
+      "NATIONALITY": "Nationality",
+      "TEAM": "Team",
+      "RATING": "Rating",
+      "LEAGUE": "League",
+      "COUNTRY": "Country",
+      "DIVISION": "Division",
+      "GENDER": "Gender",
+      "PLAYERS_NO_FAVORITES": "No favorite players",
+      "TEAMS_NO_FAVORITES": "No favorite teams",
+      "LEAGUES_NO_FAVORITES": "No favorite leagues"
+    }
+  },
+  "EVENTS": {
+    "WATCH_VIDEO": "Watch Video",
+    "MINUTES": "Minute",
+    "TYPE": {
+      "GOAL": "Goal",
+      "PENALTY_FOUL": "Penalty Foul",
+      "CARD": "Card",
+      "ASSIST": "Assist",
+      "YELLOW_CARD": "Yellow Card",
+      "RED_CARD": "Red Card",
+      "PENALTY_GOAL": "Penalty Goal",
+      "SAVE": "Save",
+      "SHOT": "Shot",
+      "SHOT_AGAINST": "Shot Against",
+      "PASS": "Pass",
+      "DEFENSIVE_DUEL": "Defensive Duel",
+      "SAVE_WITH_REFLEX": "Save With Reflex",
+      "CONCEDED_GOAL": "Conceded Goal",
+      "PENALTY_SAVE": "Penalty Save"
+    }
+  }
+}

@@ -1,0 +1,189 @@
+/* ////////////////////////////// SASS Variables ////////////////////////////// */
+
+/*////////// Colors //////////*/
+
+/*///// General /////*/
+
+/*/ Main Green /*/
+$colorMain: #88b2ad;
+$colorMain_light: #99adab;
+$colorMain_dark: #577e79;
+$colorMain_shadow: rgba(199, 206, 200, 0.418);
+
+/*/ Main Blue /*/
+$colorMainBlue: #002d64;
+$colorMainBlue_light: #476e9f;
+$colorMainBlue_dark: #122c4b;
+$colorMainBlue_shadow: rgba(123, 128, 156, 0.5);
+$colorMainBlue_cta: #0081fc;
+
+/*/ Main alt /*/
+$colorMainAlt: #33405d;
+$colorMainAlt_light: #415b96;
+$colorMainAlt_dark: #202d4a;
+$colorMainAlt_shadow: rgba(51, 64, 93, 50%);
+
+/*/ Success /*/
+$colorSuccess: #09b46c;
+$colorSuccess_light: #0acc7b;
+$colorSuccess_dark: #0b935a;
+$colorSuccess_shadow: rgba(9, 180, 108, 50%);
+$colorSuccess_altBkg: #dbffc7;
+$colorSuccess_altText: #417e20;
+
+/*/ Info /*/
+$colorInfo_altBkg: #e8edff;
+$colorInfo_altText: #33405d;
+
+/*/ Warning /*/
+$colorWarning: #febd40;
+$colorWarning_light: #ffcb67;
+$colorWarning_dark: #eaa41e;
+$colorWarning_shadow: rgba(254, 189, 64, 50%);
+$colorWarning_altBkg: #fff5e8;
+$colorWarning_altText: #895e0b;
+
+/*/ Danger /*/
+$colorDanger: #ff4141;
+$colorDanger_light: #ff6868;
+$colorDanger_dark: #eb1212;
+$colorDanger_shadow: rgba(255, 65, 65, 50%);
+$colorDanger_altBkg: #ffe8e8;
+$colorDanger_altText: #a52929;
+
+/*/ Text /*/
+$colorText: #000000;
+$colorTextLight: #7b7b7b;
+$colorTextLight_shadow: rgba(123, 123, 123, 50%);
+$colorTextInverse: white;
+$colorTextDarkGrey: #505050;
+
+/*/ Other /*/
+$colorOutline: #dedede;
+$colorBkg: #fafafa;
+$colorLightGray: #f3f3f3;
+$colorDarkGrey: #414141;
+$colorGrey_shadow: rgba(0, 0, 0, 25%);
+$colorOutile_diveder: #9f9f9f;
+
+/*///// Header /////*/
+
+$colorHeaderBkg: white;
+$colorHeaderText: #000000;
+$colorHeaderTextLight: #7b7b7b;
+$colorHeaderHover: #f1f1f1;
+$colorHeaderSearchBkg: #f1f1f1;
+$colorHeaderOutline: rgba(0, 0, 0, 25%);
+
+/*////////// Colors Dark mode DM //////////*/
+
+/*/ General /*/
+
+$colorText_dm: white;
+$colorTextLight_dm: rgba(255, 255, 255, 75%);
+$colorTextInverse_dm: white;
+$colorOutline_dm: rgba(255, 255, 255, 25%);
+$colorBkg_dm: #16213a;
+$colorDanger_dm: #ff5656;
+
+/*/ Header dark /*/
+
+$colorHeaderBkg_dm: #33405d;
+$colorHeaderText_dm: white;
+$colorHeaderTextLight_dm: rgba(255, 255, 255, 75%);
+$colorHeaderHover_dm: rgba(255, 255, 255, 10%);
+$colorHeaderSearchBkg_dm: rgba(0, 0, 0, 20%);
+$colorHeaderOutline_dm: rgba(255, 255, 255, 25%);
+
+/*////////// Positions Colors //////////*/
+
+/*/ Genreal Position /*/
+
+$colorFWD: #0081fc;
+$colorMID: #002d64;
+$colorDEF: #476e9f;
+$colorGKP: #88b2ad;
+
+/*/ Striker /*/
+
+$colorCF: #b197fc;
+$colorLW: #9775fa;
+$colorRW: #845ef7;
+$colorLWF: #7950f2;
+$colorRWF: #7048e8;
+/*/ Midfielder /*/
+
+$colorAMF: #faaf03;
+$colorLAMF: #f59f00;
+$colorRAMF: #f08c00;
+$colorLCM: #fd7e14;
+$colorRCM: #f76707;
+$colorCMF: #e8590c;
+$colorDMF: #fa5252;
+$colorLDM: #fe4545;
+$colorRDM: #f03e3e;
+$colorRMF: #db3232;
+$colorLMF: #e03131;
+$colorRAM: #c92a2a;
+$colorLCMF: #a61e4d;
+$colorRCMF: #c2255c;
+$colorLDMF: #d6336c;
+$colorRDMF: #e6487f;
+
+/*/ Defender /*/
+
+$colorCB: #82c91e;
+$colorLCB: #74b816;
+$colorRCB: #66a80f;
+$colorRCB3: #37b24d;
+$colorRB: #2f9e44;
+$colorRCB5: #2b8a3e;
+$colorLB: #099268;
+$colorLWB: #0eb784;
+$colorRWB: #38d9a9;
+$colorRB5: #3bc9db;
+$colorLB5: #21b7ce;
+$colorLCB3: #15aabf;
+$colorLCB5: #1098ad;
+$colorRCMF3: #0a7b8d;
+$colorLCMF3: #02515e;
+
+/*/ GoalKeeper /*/
+
+$colorGK: #364fc7;
+
+/*/ Videos Tags /*/
+
+$colorGoal: #0081fc;
+$colorSave: #002d64;
+$colorSaveReflex: #2b8a3e;
+$colorRedCard: #db3232;
+$colorYellowCard: #faaf03;
+$colorCard: #364fc7;
+$colorAssit: #88b2ad;
+$colorConcededGoal: #c2255c;
+$colorDefensiveDuel: #1098ad;
+$colorPenaltyConcededGoal: #e8590c;
+$colorPenaltyFoul: #db3232;
+$colorPenaltyGoal: #476e9f;
+$colorPenaltySave: #37b24d;
+$colorShotAgainst: #82c91e;
+$colorPass: #7950f2;
+$colorShot: #b197fc;
+
+/*////////// Measurements //////////*/
+
+$containerWidthS: 100%;
+$containerWidthM: 632px;
+$containerWidthL: 1232px;
+
+$containerGutter: 1rem;
+
+/*////////// Media Queries //////////*/
+/* Media queries should always be used with max-width. */
+
+$mediaqueryXS: 600px;
+$mediaqueryS: 767px;
+$mediaqueryM: 991px;
+$mediaqueryL: 1199px;
+$mediaqueryXL: 1440px;
